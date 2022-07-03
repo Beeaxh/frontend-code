@@ -64,7 +64,7 @@ function Register() {
       <input
         type="text"
         value={fullname}
-        onClick={(e)=>setFullname(e.target.value)}
+        onChange={(e)=>setFullname(e.target.value)}
         placeholder="Enter your Full name"
         class="signUpFirstName"
       /><br />
@@ -72,21 +72,21 @@ function Register() {
       <input
         type="text"
         value={username}
-        onClick={(e)=>setUsername(e.target.value)}
+        onChange={(e)=>setUsername(e.target.value)}
         placeholder="Enter your User Name"
         class="signUpFirstName"
       /><br />
       <input
         type="password"
         value={password}
-        onClick={(e)=>setPassword(e.target.value)}
+        onChange={(e)=>setPassword(e.target.value)}
         placeholder="Enter your Password"
         class="signUpFirstName"
       /><br />
       <input
         type="password"
         value={c_password}
-        onClick={(e)=>setC_password(e.target.value)}
+        onChange={(e)=>setC_password(e.target.value)}
         placeholder="Confirm Password"
         class="signUpFirstName"
       /><br />
