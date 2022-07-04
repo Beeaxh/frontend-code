@@ -1,4 +1,4 @@
 import axios from "axios";
 export const BaseFile = axios.create({
-    baseURL:"https://beeaxh.herokuapp.com/"
+    baseURL:"https://test-beeaxh.herokuapp.com/"
 })

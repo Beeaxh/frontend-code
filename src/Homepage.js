@@ -9,17 +9,17 @@ function Homepage() {
      
         <div class="row">
           <div class="col-lg-6 p-3">
-            <h1 class="headerH1">
+            <h1 class="headerH1 text-[#275ca4] " style={{textAlign:"center",fontSize:"34px",fontWeight:700}}>
               Save Up for your Children's future in crypto
             </h1>
-            <p class="headerP">
+            <p class="headerP" style={{textAlign:"center",fontSize:"20px",fontWeight:390,marginBottom:"15px"}}>
               put your children on their way to financial independence with our
               secured smart contract wallet designed for children to show them
               how exciting saving can be.
             </p>
-
-            <button type="button" class="btn btn-dark btn-lg getStartedBtn">
-              <a href="/auth" class="getStartedBtnLink">
+            
+            <button type="button" style={{textAlign:"center",justifyContent:'center',alignItems:"center"}} class="btn my-2 mx-4 bg-[#275ca4]  btn-lg getStartedBtn">
+              <a href="/auth/signup" class="getStartedBtnLink">
                 Get Started <i class="fa-solid fa-angle-right"></i
               ></a>
             </button>
@@ -35,7 +35,7 @@ function Homepage() {
 
         <section id="features">
       <div class="container">
-        <h1 class="featuresH1">
+        <h1 class="featuresH1 text-[#275ca4]">
           Join one of Africa's Best Child Investment platform
         </h1>
         <p class="featuresP">
@@ -47,7 +47,7 @@ function Homepage() {
             <div class="card cardFeatures">
               <div class="card-body card-bodyFeatures">
                 <img src="img/Secure.svg" alt="" />
-                <h4 class="card-title">Secured Savings</h4>
+                <h4 class="card-title text-[#275ca4]">Secured Savings</h4>
                 <p class="card-text">
                   Your money is secured with our Smart Contract Blockchain
                   System
@@ -59,7 +59,7 @@ function Homepage() {
             <div class="card cardFeatures">
               <div class="card-body card-bodyFeatures">
                 <img src="img/Time to Pay.svg" alt="" />
-                <h4 class="card-title">Added Profit</h4>
+                <h4 class="card-title text-[#275ca4]">Added Profit</h4>
                 <p class="card-text">
                   Save for some amount of time and get 40% added Profit to your
                   savings
@@ -72,7 +72,7 @@ function Homepage() {
             <div class="card cardFeatures">
               <div class="card-body card-bodyFeatures">
                 <img src="img/Insurance.svg" alt="" />
-                <h4 class="card-title">Insurance</h4>
+                <h4 class="card-title text-[#275ca4]">Insurance</h4>
                 <p class="card-text">
                   You can get insurance for your children with our platform
                 </p>

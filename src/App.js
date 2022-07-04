@@ -17,8 +17,8 @@ function App() {
         >
           <div class="container-fluid">
             <a class="navbar-brand" href="/">
-              <img src="" alt="Logo" style={{width:"40px"}} class="rounded-pill" />
-              Beeaxh</a>
+              <img src="https://res.cloudinary.com/axgura/image/upload/v1656950725/IMG-20220704-WA0004_ndqc8h.jpg" alt="Logo" style={{width:"100px",height:"100px"}} class="rounded-pill" />
+             </a>
             <button
               class="navbar-toggler"
               type="button"
@@ -40,11 +40,11 @@ function App() {
                   <a class="nav-link" href="#">FAQs</a>
                 </li>} */}
               </ul>
-              <button type="button" class="btn btn-outline-primary me-3">
-                <a class="headerSignUp headerSignIn" href="/auth/signin">sign in</a>
+              <button type="button" style={{color:"white"}} class="btn bg-[#275ca4] text-white btn-outline-primary me-3">
+                <a class="text-white" href="/auth/signin">sign in</a>
               </button>
 
-              <button class="btn btn-primary me-3" type="button">
+              <button class="btn  bg-[#275ca4] btn-primary me-3" type="button">
                 <a href="/auth/signup" class="headerSignUp"> sign up</a>
               </button>
             </div>
